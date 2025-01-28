@@ -13,11 +13,12 @@ import navigationBar from './components/navBar.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       
-        <navigationBar/>
+        
     </div>
   </header>
-
+  
   <RouterView />
+  <navigationBar/>
 </template>
 
 <style scoped>
