@@ -2,32 +2,29 @@
 <template>
     <nav>
         <div class="button-navBar">
-            <div id="recent-icon">
+            <RouterLink to="/Recents" class="nav-link">
                 <img src="../assets/recent_icon.svg">
-                <p>Récents</p>
-            </div>
-            <div id="suivis-icon">
+
+            </RouterLink>
+            <RouterLink to="/Suivis" class="nav-link">
                 <img src="../assets/suivis_icon.svg">
-                <p>Suivis</p>
-            </div>
-            <div id="course-icon">
-                <img src="../assets/course_icon.svg">
-                <p>Courses</p>
-            </div>
-            <div id="classement-icon">
+            </RouterLink>
+            <RouterLink to="/Courses" class="nav-link">
+                <img src="../assets/course_icon.svg">  
+            </RouterLink>
+            <RouterLink to="/Classements" class="nav-link">
                 <img src="../assets/classement_icon.svg">
-                <p>Classements</p>
-            </div>
-            <div id="plus-icon">
+            </RouterLink>
+            <RouterLink to="/Plus" class="nav-link">
                 <img src="../assets/plus_icon.svg">
-                <p>Plus</p>
-            </div>
-            
+            </RouterLink>
         </div>
     </nav>
 </template>
 
-<script></script>
+<script>
+import {RouterLink, RouterView } from 'vue-router'
+</script>
 
 <style scoped>
 nav{
@@ -35,27 +32,19 @@ nav{
     height: 10%;
     width: 100vw;
     position: absolute;
+    border-radius: 15px 15px 0px 0px;
     bottom: 0;
     margin: 0;
     right: 0;
     padding: 0;
 }
-p{
-    color: white;
-    font-family: "Pathway Extreme", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
+
+img{
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s, filter 0.3s;
 }
 
-
-#recent-icon,#suivis-icon,#course-icon,#classement-icon,#plus-icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .button-navBar{
     position: relative;
     display: flex;
@@ -63,6 +52,15 @@ p{
     justify-content: center;
     align-items: center;
     top: 20%;
-    gap: 2rem;
+    gap: 3rem;
+}
+
+.nav-link img {
+    opacity: 0.5;
+}
+    
+.router-link-active img {
+    opacity: 1;
+    filter: brightness(0) saturate(100%) invert(1);
 }
 </style>

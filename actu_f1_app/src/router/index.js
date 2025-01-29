@@ -17,6 +17,32 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
+    // Routers for the navigation bar
+    {
+      path: '/Recents' ,
+      name: 'recents' ,
+      component: () => import('../views/recents.vue')
+    },
+    {
+      path: '/Suivis' ,
+      name: 'suivis' ,
+      component: () => import('../views/suivis.vue')
+    },
+    {
+      path: '/Courses' ,
+      name: 'courses' ,
+      component: () => import('../views/courses.vue')
+    },
+    {
+      path: '/Classements' ,
+      name: 'classements' ,
+      component: () => import('../views/classements.vue')
+    },
+    {
+      path: '/Plus' ,
+      name: 'plus' ,
+      component: () => import('../views/plus.vue')
+    },
   ],
 })
 
