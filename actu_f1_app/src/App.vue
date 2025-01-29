@@ -18,13 +18,15 @@ import navigationBar from './components/navBar.vue'
   </header>
   
   <RouterView/>
+
+
   <navigationBar/>
 </template>
 
 <style scoped>
 
 header {
-  line-height: 1.5;
+  height: 22vh;
   max-height: 100vh;
 }
 

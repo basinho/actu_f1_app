@@ -19,27 +19,27 @@ const router = createRouter({
     },
     // Routers for the navigation bar
     {
-      path: '/Recents' ,
+      path: '/recents' ,
       name: 'recents' ,
       component: () => import('../views/recents.vue')
     },
     {
-      path: '/Suivis' ,
+      path: '/suivis' ,
       name: 'suivis' ,
       component: () => import('../views/suivis.vue')
     },
     {
-      path: '/Courses' ,
+      path: '/courses' ,
       name: 'courses' ,
       component: () => import('../views/courses.vue')
     },
     {
-      path: '/Classements' ,
+      path: '/classements' ,
       name: 'classements' ,
       component: () => import('../views/classements.vue')
     },
     {
-      path: '/Plus' ,
+      path: '/plus' ,
       name: 'plus' ,
       component: () => import('../views/plus.vue')
     },

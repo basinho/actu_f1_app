@@ -2,20 +2,20 @@
 <template>
     <nav>
         <div class="button-navBar">
-            <RouterLink to="/Recents" class="nav-link">
+            <RouterLink to="/recents" class="nav-link">
                 <img src="../assets/recent_icon.svg">
 
             </RouterLink>
-            <RouterLink to="/Suivis" class="nav-link">
+            <RouterLink to="/suivis" class="nav-link">
                 <img src="../assets/suivis_icon.svg">
             </RouterLink>
-            <RouterLink to="/Courses" class="nav-link">
+            <RouterLink to="/courses" class="nav-link">
                 <img src="../assets/course_icon.svg">  
             </RouterLink>
-            <RouterLink to="/Classements" class="nav-link">
+            <RouterLink to="/classements" class="nav-link">
                 <img src="../assets/classement_icon.svg">
             </RouterLink>
-            <RouterLink to="/Plus" class="nav-link">
+            <RouterLink to="/plus" class="nav-link">
                 <img src="../assets/plus_icon.svg">
             </RouterLink>
         </div>
@@ -31,7 +31,7 @@ nav{
     background-color: red;
     height: 10%;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     border-radius: 15px 15px 0px 0px;
     bottom: 0;
     margin: 0;
