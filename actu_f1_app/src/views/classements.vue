@@ -1,26 +1,37 @@
-<script setup>
-import classementPosition from '../components/classementBlock.vue'
-const positions = [
-  { id: 1, label: '1' },
-  { id: 2, label: '2' },
-  { id: 3, label: '3' },
-  { id: 4, label: '4' },
-  { id: 5, label: '5' }
-];
-</script>
-
 <template>
     <div class="positions">
-        <classementPosition v-for="position in positions" :key="position.id" :label="position.label"/>
+      <template v-if="drivers.length">
+        <classementPosition 
+          v-for="driver in drivers" 
+          :key="driver.id" 
+          :label="`${driver.position} - ${driver.name} (${driver.team})`" 
+          :team="driver.team"
+          :points="driver.points"
+          :nationality="driver.nationality"
+          :driverId="driver.id"
+        />
+      </template>
+      <p v-else>Chargement des classements...</p>
     </div>
-</template>
-
-<style>
-    .positions{
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-</style>
+  </template>
+  
+  <script setup>
+  import { ref, onMounted } from 'vue';
+  import classementPosition from '../components/classementBlock.vue'; 
+  
+  // Importation du fichier JSON
+  import classementData from '../assets/f1.json';
+  
+  const drivers = ref(classementData); // Charger les données dans 'drivers' directement
+  
+  </script>
+  
+  <style>
+  .positions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  </style>
+  

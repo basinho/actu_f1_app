@@ -21,27 +21,32 @@ const router = createRouter({
     {
       path: '/recents' ,
       name: 'recents' ,
-      component: () => import('../views/recents.vue')
+      component: () => import('../views/recents.vue'),
+      meta:{title: 'Récents'}  
     },
     {
       path: '/suivis' ,
       name: 'suivis' ,
-      component: () => import('../views/suivis.vue')
+      component: () => import('../views/suivis.vue'),
+      meta:{title: 'Suivis'} 
     },
     {
       path: '/courses' ,
       name: 'courses' ,
-      component: () => import('../views/courses.vue')
+      component: () => import('../views/courses.vue'),
+      meta:{title: 'Courses'} 
     },
     {
       path: '/classements' ,
       name: 'classements' ,
-      component: () => import('../views/classements.vue')
+      component: () => import('../views/classements.vue'),
+      meta:{title: 'Classements'} 
     },
     {
       path: '/plus' ,
       name: 'plus' ,
-      component: () => import('../views/plus.vue')
+      component: () => import('../views/plus.vue'),
+      meta:{title: 'Plus '} 
     },
   ],
 })
