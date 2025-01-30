@@ -12,11 +12,8 @@
             <RouterLink to="/courses" class="nav-link">
                 <img src="../assets/course_icon.svg">  
             </RouterLink>
-            <RouterLink to="/classements" class="nav-link">
+            <RouterLink to="/classements/Pilotes" class="nav-link">
                 <img src="../assets/classement_icon.svg">
-            </RouterLink>
-            <RouterLink to="/plus" class="nav-link">
-                <img src="../assets/plus_icon.svg">
             </RouterLink>
         </div>
     </nav>

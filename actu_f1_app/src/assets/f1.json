@@ -1,142 +1,82 @@
 [
     {
-        "index": 1,
-        "name": "Max Verstappen",
-        "ecurie": "Red Bull Racing",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/M/max-verstappen/max-verstappen.png"
+        "team": "Red Bull Racing",
+        "engine": "Honda RBPT",
+        "drivers": [
+            {"id": 1, "firstname": "Max", "surname": "Verstappen", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png"},
+            {"id": 2, "firstname": "Liam", "surname": "Lawson", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png"}
+        ]
     },
     {
-        "index": 2,
-        "name": "Liam Lawson",
-        "ecurie": "Red Bull Racing",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/L/liam-lawson/liam-lawson.png"
+        "team": "Scuderia Ferrari",
+        "engine": "Ferrari",
+        "drivers": [
+            {"id": 3, "firstname": "Lewis", "surname": "Hamilton", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png"},
+            {"id": 4, "firstname": "Charles", "surname": "Leclerc", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png"}
+        ]
     },
     {
-        "index": 3,
-        "name": "Lewis Hamilton",
-        "ecurie": "Scuderia Ferrari",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/L/lewis-hamilton/lewis-hamilton.png"
+        "team": "Mercedes-AMG Petronas",
+        "engine": "Mercedes",
+        "drivers": [
+            {"id": 5, "firstname": "George", "surname": "Russell", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png"},
+            {"id": 6, "firstname": "Andrea Kimi", "surname": "Antonelli", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ANDANT01_Andrea%20Kimi_Antonelli/andant01.png"}
+        ]
     },
     {
-        "index": 4,
-        "name": "Charles Leclerc",
-        "ecurie": "Scuderia Ferrari",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/C/charles-leclerc/charles-leclerc.png"
+        "team": "McLaren",
+        "engine": "Mercedes",
+        "drivers": [
+            {"id": 7, "firstname": "Lando", "surname": "Norris", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png"},
+            {"id": 8, "firstname": "Oscar", "surname": "Piastri", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png"}
+        ]
     },
     {
-        "index": 5,
-        "name": "George Russell",
-        "ecurie": "Mercedes-AMG Petronas",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/G/george-russell/george-russell.png"
+        "team": "Aston Martin",
+        "engine": "Mercedes",
+        "drivers": [
+            {"id": 9, "firstname": "Fernando", "surname": "Alonso", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png"},
+            {"id": 10, "firstname": "Lance", "surname": "Stroll", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png"}
+        ]
     },
     {
-        "index": 6,
-        "name": "Andrea Kimi Antonelli",
-        "ecurie": "Mercedes-AMG Petronas",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/A/andrea-kimi-antonelli/andrea-kimi-antonelli.png"
+        "team": "Alpine",
+        "engine": "Renault",
+        "drivers": [
+            {"id": 11, "firstname": "Pierre", "surname": "Gasly", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png"},
+            {"id": 12, "firstname": "Jack", "surname": "Doohan", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png"}
+        ]
     },
     {
-        "index": 7,
-        "name": "Lando Norris",
-        "ecurie": "McLaren",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/L/lando-norris/lando-norris.png"
+        "team": "Haas",
+        "engine": "Ferrari",
+        "drivers": [
+            {"id": 13, "firstname": "Esteban", "surname": "Ocon", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png"},
+            {"id": 14, "firstname": "Oliver", "surname": "Bearman", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png"}
+        ]
     },
     {
-        "index": 8,
-        "name": "Oscar Piastri",
-        "ecurie": "McLaren",
-        "points": 0,
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png"
+        "team": "Kick Sauber",
+        "engine": "Ferrari",
+        "drivers": [
+            {"id": 15, "firstname": "Gabriel", "surname": "Bortoleto", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png"},
+            {"id": 16, "firstname": "Nico", "surname": "Hülkenberg", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png"}
+        ]
     },
     {
-        "index": 9,
-        "name": "Fernando Alonso",
-        "ecurie": "Aston Martin",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/F/fernando-alonso/fernando-alonso.png"
+        "team": "Williams Racing",
+        "engine": "Mercedes",
+        "drivers": [
+            {"id": 17, "firstname": "Alexander", "surname": "Albon", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png"},
+            {"id": 18, "firstname": "Carlos", "surname": "Sainz Jr.", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png"}
+        ]
     },
     {
-        "index": 10,
-        "name": "Lance Stroll",
-        "ecurie": "Aston Martin",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/L/lance-stroll/lance-stroll.png"
-    },
-    {
-        "index": 11,
-        "name": "Pierre Gasly",
-        "ecurie": "Alpine",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/P/pierre-gasly/pierre-gasly.png"
-    },
-    {
-        "index": 12,
-        "name": "Jack Doohan",
-        "ecurie": "Alpine",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/J/jack-doohan/jack-doohan.png"
-    },
-    {
-        "index": 13,
-        "name": "Esteban Ocon",
-        "ecurie": "Haas",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/E/esteban-ocon/esteban-ocon.png"
-    },
-    {
-        "index": 14,
-        "name": "Oliver Bearman",
-        "ecurie": "Haas",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/O/oliver-bearman/oliver-bearman.png"
-    },
-    {
-        "index": 15,
-        "name": "Gabriel Bortoleto",
-        "ecurie": "Sauber",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/G/gabriel-bortoleto/gabriel-bortoleto.png"
-    },
-    {
-        "index": 16,
-        "name": "Nico Hülkenberg",
-        "ecurie": "Sauber",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/N/nico-hulkenberg/nico-hulkenberg.png"
-    },
-    {
-        "index": 17,
-        "name": "Alexander Albon",
-        "ecurie": "Williams",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/A/alexander-albon/alexander-albon.png"
-    },
-    {
-        "index": 18,
-        "name": "Carlos Sainz Jr.",
-        "ecurie": "Williams",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/C/carlos-sainz/carlos-sainz.png"
-    },
-    {
-        "index": 19,
-        "name": "Yuki Tsunoda",
-        "ecurie": "Racing Bulls",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/Y/yuki-tsunoda/yuki-tsunoda.png"
-    },
-    {
-        "index": 20,
-        "name": "Isack Hadjar",
-        "ecurie": "Racing Bulls",
-        "points": 0,
-        "img": "https://www.formula1.com/content/dam/fom-website/drivers/I/isack-hadjar/isack-hadjar.png"
+        "team": "Racing Bulls",
+        "engine": "Honda RBPT",
+        "drivers": [
+            {"id": 19, "firstname": "Yuki", "surname": "Tsunoda", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png"},
+            {"id": 20, "firstname": "Isack", "surname": "Hadjar", "points": 0, "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png"}
+        ]
     }
 ]
