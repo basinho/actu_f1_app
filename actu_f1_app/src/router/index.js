@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ClassementsView from '../views/ClassementsView.vue'  
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,24 +33,16 @@ const router = createRouter({
       meta: { title: 'Courses' } 
     },
     { 
-      path: '/classements', 
-      name: 'classements', 
-      component: ClassementsView,
+      path: '/classements/pilotes', 
+      name: 'classement-pilotes', 
+      component: () => import('../views/classementPilotes.vue'),
       meta: { title: 'Classements' },
-      children: [
-        { 
-          path: 'pilotes', 
-          name: 'classementPilotes', 
-          component: () => import('../views/classementPilotes.vue'), 
-          meta: { title: 'Pilotes' } 
-        },
-        { 
-          path: 'constructeurs', 
-          name: 'classementConstructeurs', 
-          component: () => import('../views/classementConstructeurs.vue'), 
-          meta: { title: 'Constructeurs' } 
-        }
-      ]
+    },
+    {
+      path: '/classements/constructeurs',
+      name: 'classement-constructeurs',
+      component: () => import('../views/classementConstructeurs.vue'),
+      meta: { title: 'Classements'}
     }
   ]
 })

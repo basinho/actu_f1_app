@@ -2,11 +2,13 @@
   import { RouterLink, RouterView } from 'vue-router'
   import navigationBar from './components/navBar.vue'
   import variableHeader from './components/header.vue'
+  import subHeader from './components/subHeader.vue'
   </script>
 
   <template>
     <header>
       <variableHeader/> 
+      <subHeader/>
     </header>
     
     <RouterView/>
@@ -29,7 +31,7 @@
     margin: 0 auto 2rem;
   }
 
-
+/* 
   nav a.router-link-exact-active {
     color: var(--color-text);
   }
@@ -41,7 +43,7 @@
 
   nav a:first-of-type {
     border: 0;
-  }
+  } */
 
   @media (min-width: 1024px) {
     header {

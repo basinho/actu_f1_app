@@ -1,30 +1,37 @@
+
 <template>
-  <ClassementBlock title="Classement Pilotes" :items="pilotes" type="pilotes" />
+  <div class="positions">
+    <template v-if="drivers.length">
+      <classementPosition 
+        v-for="driver in drivers" 
+        :key="driver.id" 
+        :firstname="driver.firstname" 
+        :surname="driver.surname"
+        :team="driver.team"
+        :points="driver.points"
+        :img="driver.img"
+      />
+    </template>
+    <p v-else>Chargement des classements...</p>
+  </div>
 </template>
+  
+<script setup>
+import { ref, onMounted } from 'vue';
+import classementPosition from '../components/classementBlock.vue'; 
 
-<script>
-import ClassementBlock from "../components/classementBlock.vue";
+import classementData from '../assets/f1.json';
 
-export default {
-  components: { ClassementBlock },
-  data() {
-    return {
-      pilotes: [
-        { id: 1, firstname: "Max", surname: "Verstappen", points: 150 },
-        { id: 2, firstname: "Lewis", surname: "Hamilton", points: 120 }
-      ]
-    };
-  }
-};
+const drivers = ref(classementData); 
+
 </script>
-
 
 <style>
 .positions {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20%;
+  margin-bottom:20%;
   gap: 1rem;
 }
 </style>
