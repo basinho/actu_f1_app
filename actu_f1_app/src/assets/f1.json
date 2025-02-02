@@ -58,7 +58,7 @@
         "firstname": "Lando ",
         "surname": "Norris",
         "points": 0,
-        "team": "McLaren",
+        "team": "McLaren F1 Team",
         "engine": "Mercedes",
         "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png"
     },
@@ -67,7 +67,7 @@
         "firstname": "Oscar ",
         "surname": "Piastri",
         "points": 0,
-        "team": "McLaren",
+        "team": "McLaren F1 Team",
         "engine": "Mercedes",
         "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png"
     },
@@ -94,7 +94,7 @@
         "firstname": "Pierre ",
         "surname": "Gasly",
         "points": 0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "engine": "Renault",
         "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png"
     },
@@ -103,7 +103,7 @@
         "firstname": "Jack ",
         "surname": "Doohan",
         "points": 0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "engine": "Renault",
         "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png"
     },
@@ -112,7 +112,7 @@
         "firstname": "Esteban ",
         "surname": "Ocon",
         "points": 0,
-        "team": "Haas",
+        "team": "Haas F1 Team",
         "engine": "Ferrari",
         "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png"
     },
@@ -121,7 +121,7 @@
         "firstname": "Oliver ",
         "surname": "Bearman",
         "points": 0,
-        "team": "Haas",
+        "team": "Haas F1 Team",
         "engine": "Ferrari",
         "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png"
     },

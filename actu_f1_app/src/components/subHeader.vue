@@ -31,6 +31,10 @@ import { RouterLink } from 'vue-router';
     font-weight: bold;
     font-size: 1rem;
     font-variation-settings:"wdth" 100;
-    color:white;
+    color:#dddcc7;
+}
+
+a :hover{
+    color: white;
 }
 </style>

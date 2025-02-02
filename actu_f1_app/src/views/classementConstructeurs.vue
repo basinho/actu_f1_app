@@ -1,27 +1,26 @@
 <template>
-  <div>
-    <classementPosition 
-      v-for="team in sortedTeams" 
-      :key="team.team"
-      :team="team.team" 
-      :surname="team.engine"
-      :points="team.points"
-    />
+  <div class="positions">
+      <classementPosition 
+        v-for="team in sortedTeams" 
+        :team="team.engine" 
+        :surname="team.team"
+        :points="team.points"
+      />
   </div>
 </template>
 
 <script>
-import ClassementPosition from "@/components/classementBlock.vue";
+import ClassementPosition from "../components/classementBlock.vue";
+import classementInfos from "../assets/f1.json"; // Importer votre fichier JSON
 
 export default {
   components: {
     ClassementPosition,
   },
-  props: {
-    teams: {
-      type: Array,
-      default: () => [] // Évite l'erreur si `teams` n'est pas fourni
-    }
+  data() {
+    return {
+      teams: classementInfos // Définir les données importées dans la propriété `teams`
+    };
   },
   computed: {
     groupedTeams() {
@@ -49,9 +48,13 @@ export default {
 };
 </script>
 
-<style scoped>
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
+<style>
+.positions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:25%;
+  gap: 1rem;
 }
 </style>
+
