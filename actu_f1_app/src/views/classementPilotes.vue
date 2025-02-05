@@ -1,5 +1,8 @@
 
 <template>
+    <header>
+        <subHeader/>
+    </header>
   <div class="positions">
     <template v-if="drivers.length">
       <classementPosition 
@@ -19,7 +22,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import classementPosition from '../components/classementBlock.vue'; 
-
+import subHeader from '../components/subHeader.vue'
 import classementData from '../assets/f1.json';
 
 const drivers = ref(classementData); 

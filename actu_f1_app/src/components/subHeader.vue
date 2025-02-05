@@ -19,8 +19,7 @@ import { RouterLink } from 'vue-router';
     flex-direction: row;
     justify-content: center;
     gap: 20vw;
-    margin-top: 5vh;
-    bottom: 0;
+    margin-bottom: 4vh;
     
 }
 

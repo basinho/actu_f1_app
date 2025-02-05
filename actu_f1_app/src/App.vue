@@ -2,7 +2,7 @@
   import { RouterLink, RouterView } from 'vue-router'
   import navigationBar from './components/navBar.vue'
   import variableHeader from './components/header.vue'
-  import subHeader from './components/subHeader.vue'
+ 
   </script>
 
   <template>
