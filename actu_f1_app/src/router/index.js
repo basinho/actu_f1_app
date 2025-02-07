@@ -23,7 +23,7 @@ const router = createRouter({
     { 
       path: '/suivis', 
       name: 'suivis', 
-      component: () => import('../views/suivis.vue'), 
+      component: () => import('../views/follow.vue'), 
       meta: { title: 'Suivis' } 
     },
     { 
@@ -35,13 +35,13 @@ const router = createRouter({
     { 
       path: '/classements/pilotes', 
       name: 'classement-pilotes', 
-      component: () => import('../views/classementPilotes.vue'),
+      component: () => import('../views/driverStanding.vue'),
       meta: { title: 'Classements' },
     },
     {
       path: '/classements/constructeurs',
       name: 'classement-constructeurs',
-      component: () => import('../views/classementConstructeurs.vue'),
+      component: () => import('../views/constructorStanding.vue'),
       meta: { title: 'Classements'}
     }
   ]

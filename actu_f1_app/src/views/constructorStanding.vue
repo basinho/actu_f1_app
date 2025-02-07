@@ -1,6 +1,10 @@
 <template>
+  <header>
+    <subHeader/>
+  </header>
+  
   <div class="positions">
-      <classementPosition 
+      <PositionStanding 
         v-for="team in sortedTeams" 
         :team="team.engine" 
         :surname="team.team"
@@ -10,16 +14,18 @@
 </template>
 
 <script>
-import ClassementPosition from "../components/classementBlock.vue";
-import classementInfos from "../assets/f1.json"; // Importer votre fichier JSON
+import PositionStanding from "../components/standingBlock.vue";
+import dataStanding from "../assets/f1.json";
+import subHeader from '../components/subHeader.vue'
 
 export default {
   components: {
-    ClassementPosition,
+    PositionStanding,
+    subHeader
   },
   data() {
     return {
-      teams: classementInfos // Définir les données importées dans la propriété `teams`
+      teams: dataStanding // Définir les données importées dans la propriété `teams`
     };
   },
   computed: {

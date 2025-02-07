@@ -3,5 +3,5 @@
 </template>
 
 <script>
-import classementPosition from '../components/classementBlock.vue';
+import classementPosition from '../components/standingBlock.vue';
 </script>

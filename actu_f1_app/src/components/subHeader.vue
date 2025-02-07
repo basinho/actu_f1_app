@@ -9,7 +9,7 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import { RouterLink } from 'vue-router';
 </script>
 

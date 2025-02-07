@@ -5,7 +5,7 @@
     </header>
   <div class="positions">
     <template v-if="drivers.length">
-      <classementPosition 
+      <standingBlock 
         v-for="driver in drivers" 
         :key="driver.id" 
         :firstname="driver.firstname" 
@@ -21,11 +21,11 @@
   
 <script setup>
 import { ref, onMounted } from 'vue';
-import classementPosition from '../components/classementBlock.vue'; 
+import standingBlock from '../components/standingBlock.vue'; 
 import subHeader from '../components/subHeader.vue'
-import classementData from '../assets/f1.json';
+import dataStanding from '../assets/f1.json';
 
-const drivers = ref(classementData); 
+const drivers = ref(dataStanding); 
 
 </script>
 
