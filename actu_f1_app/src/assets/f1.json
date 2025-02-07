@@ -6,7 +6,8 @@
         "points": 0,
         "team": "Red Bull Racing",
         "engine": "Honda RBPT",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
+        "team_img": "https://brandlogo.org/wp-content/uploads/2024/09/Red-Bull-Racing-Formula-One-Team-Logo-2016.png.webp"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "points": 0,
         "team": "Red Bull Racing",
         "engine": "Honda RBPT",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png",
+        "team_img": "https://brandlogo.org/wp-content/uploads/2024/09/Red-Bull-Racing-Formula-One-Team-Logo-2016.png.webp"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "points": 0,
         "team": "Scuderia Ferrari",
         "engine": "Ferrari",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
+        "team_img": "https://www.zeitlounge.com/documents/category/2120/Scuderia-Ferrari.png"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "points": 0,
         "team": "Scuderia Ferrari",
         "engine": "Ferrari",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
+        "team_img": "https://www.zeitlounge.com/documents/category/2120/Scuderia-Ferrari.png"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "points": 0,
         "team": "Mercedes-AMG Petronas",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
+        "team_img": "https://companieslogo.com/img/orig/MBG.DE-da0d7ae5.png?t=1720244492"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "points": 0,
         "team": "Mercedes-AMG Petronas",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ANDANT01_Andrea%20Kimi_Antonelli/andant01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ANDANT01_Andrea%20Kimi_Antonelli/andant01.png",
+        "team_img": "https://companieslogo.com/img/orig/MBG.DE-da0d7ae5.png?t=1720244492"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "points": 0,
         "team": "McLaren F1 Team",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
+        "team_img": "https://cdn3.emoji.gg/emojis/9807_McLaren_Logo.png"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "points": 0,
         "team": "McLaren F1 Team",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png",
+        "team_img": "https://cdn3.emoji.gg/emojis/9807_McLaren_Logo.png"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "points": 0,
         "team": "Aston Martin",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
+        "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Logo-Aston-Martin.png"
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "points": 0,
         "team": "Aston Martin",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png",
+        "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Logo-Aston-Martin.png"
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "points": 0,
         "team": "Alpine F1 Team",
         "engine": "Renault",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
+        "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Alpine-logo-1440x900-grand.png"
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "points": 0,
         "team": "Alpine F1 Team",
         "engine": "Renault",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png",
+        "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Alpine-logo-1440x900-grand.png"
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "points": 0,
         "team": "Haas F1 Team",
         "engine": "Ferrari",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png",
+        "team_img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_Haas_F1.png"
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "points": 0,
         "team": "Haas F1 Team",
         "engine": "Ferrari",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png",
+        "team_img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_Haas_F1.png"
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "points": 0,
         "team": "Kick Sauber",
         "engine": "Ferrari",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png",
+        "team_img": "https://fansbrands.com/cdn/shop/collections/kick-logo-500x500-collection.png?crop=center&height=1200&v=1728104273&width=1200"
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
         "points": 0,
         "team": "Kick Sauber",
         "engine": "Ferrari",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
+        "team_img": "https://fansbrands.com/cdn/shop/collections/kick-logo-500x500-collection.png?crop=center&height=1200&v=1728104273&width=1200"
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
         "points": 0,
         "team": "Williams Racing",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
+        "team_img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png"
     },
     {
         "id": 18,
@@ -159,7 +176,8 @@
         "points": 0,
         "team": "Williams Racing",
         "engine": "Mercedes",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
+        "team_img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png"
     },
     {
         "id": 19,
@@ -168,7 +186,8 @@
         "points": 0,
         "team": "Racing Bulls",
         "engine": "Honda RBPT",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
+        "team_img": "https://upload.wikimedia.org/wikipedia/tr/a/ae/VCARB_logo.png"
     },
     {
         "id": 20,
@@ -177,6 +196,7 @@
         "points": 0,
         "team": "Racing Bulls",
         "engine": "Honda RBPT",
-        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png"
+        "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png",
+        "team_img": "https://upload.wikimedia.org/wikipedia/tr/a/ae/VCARB_logo.png"    
     }
 ]

@@ -8,7 +8,6 @@
   <template>
     <header>
       <variableHeader/> 
-      <subHeader/>
     </header>
     
     <RouterView/>

@@ -23,7 +23,7 @@ const router = createRouter({
     { 
       path: '/suivis', 
       name: 'suivis', 
-      component: () => import('../views/follow.vue'), 
+      component: () => import('../views/mainFollow.vue'), 
       meta: { title: 'Suivis' } 
     },
     { 

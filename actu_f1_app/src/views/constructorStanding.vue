@@ -9,6 +9,7 @@
         :team="team.engine" 
         :surname="team.team"
         :points="team.points"
+        :team_img="team.team_img"
       />
   </div>
 </template>
@@ -39,7 +40,8 @@ export default {
           acc[team.team] = {
             team: team.team,
             engine: team.engine,
-            points: 0
+            points: 0,
+            team_img: team.team_img
           };
         }
         acc[team.team].points += team.points;

@@ -6,31 +6,35 @@
         <p>{{ team }}</p>
       </div>
       <div class="infos-points">
-        <img v-if="img" :src="img" :alt="firstname" class="driver-img" />
+        <img v-if="img || team_img" :src="computedImg" :alt="firstname" class="driver-img" />
         <p class="points">{{ points }} pts</p>
       </div>
     </div>
   </template>
   
   <script setup>
+  import { useRoute } from 'vue-router';
   import { computed } from 'vue';
-  
   const props = defineProps({
     firstname: String,
     surname: String,      
     team: String,
     points: Number,
-    img: String,   // Utilisé pour l'image
+    img: String,  
+    team_img: String
   });
   
-  // Calculer l'URL de l'image du pilote en utilisant driverId
-  const driverImage = computed(() => {
-    if (props.driverId) {
-      // Utilisez l'ID du pilote pour générer l'URL de l'image
-      return `https://www.formula1.com/content/dam/fom-website/2023/drivers/${props.driverId}.png.transform/2col/image.png`;
-    }
-    return '';  // Si pas d'ID, retourner une chaîne vide pour ne pas afficher d'image
-  });
+  const route = useRoute();
+
+const computedImg = computed(() => {
+
+  if (route.name === '/classements/pilotes') {
+    return props.img;  
+  } else if (route.name === '/classements/constructeurs') {
+    return props.team_img;
+  }
+  return props.img || props.team_img;
+});
   </script>
   
   <style>
@@ -58,7 +62,7 @@
     object-fit: cover;
     margin-right: 1rem;
   }
-  
+
   .info {
     display: flex;
     flex-direction: column;
