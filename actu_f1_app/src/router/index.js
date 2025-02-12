@@ -9,17 +9,7 @@ const router = createRouter({
       name: 'home', 
       component: HomeView 
     },
-    { 
-      path: '/about', 
-      name: 'about', 
-      component: () => import('../views/AboutView.vue') 
-    },
-    { 
-      path: '/recents', 
-      name: 'recents', 
-      component: () => import('../views/recents.vue'), 
-      meta: { title: 'Récents' } 
-    },
+ 
     { 
       path: '/suivis', 
       name: 'suivis', 
@@ -29,7 +19,7 @@ const router = createRouter({
     { 
       path: '/courses', 
       name: 'courses', 
-      component: () => import('../views/courses.vue'), 
+      component: () => import('../views/racePage.vue'), 
       meta: { title: 'Courses' } 
     },
     { 

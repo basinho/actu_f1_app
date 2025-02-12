@@ -1,40 +1,24 @@
 <template>
     <div class="block">
-      <div class="info">
-        <h3>{{ firstname }}</h3> 
-        <h2>{{ surname }}</h2>
-        <p>{{ team }}</p>
+        <div class="infos-date">
+            <p class="date">{{ dateNumber }} </p>
+            <p class="date">{{ dateMonth }} </p>
       </div>
-      <div class="infos-points">
-        <img v-if="img || team_img" :src="computedImg" :alt="firstname" class="driver-img" />
-        <p class="points">{{ points }} pts</p>
+      <div class="info">
+        <h2>{{ country }}</h2>
+        <h3>{{ circuit }}</h3>
       </div>
     </div>
   </template>
   
   <script setup>
-  import { useRoute } from 'vue-router';
-  import { computed } from 'vue';
   const props = defineProps({
-    firstname: String,
-    surname: String,      
-    team: String,
-    points: Number,
-    img: String,  
-    team_img: String
+    circuit: String,
+    country: String,      
+    dateNumber: String,
+    dateMonth: String,
   });
   
-  const route = useRoute();
-
-const computedImg = computed(() => {
-
-  if (route.name === '/classements/pilotes') {
-    return props.img;  
-  } else if (route.name === '/classements/constructeurs') {
-    return props.team_img;
-  }
-  return props.img || props.team_img;
-});
   </script>
   
   <style>
@@ -47,20 +31,13 @@ const computedImg = computed(() => {
     width: 90vw;
     max-width: 400px;
     height: auto;
-    gap: 30%;;
+    gap: 30%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
   }
   
   .block:hover {
     transform: scale(1.05);
-  }
-  
-  .driver-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    margin-right: 1rem;
   }
 
   .info {
@@ -69,7 +46,7 @@ const computedImg = computed(() => {
     width: 45%;
   }
 
-  .infos-points{
+  .infos-date{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,20 +61,20 @@ const computedImg = computed(() => {
     font-variation-settings:"wdth" 100;
   }
 
-  h2, .points {
+  h2, .date {
     font-size: 1.75rem;
     margin: 0;
     color: white;
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0;
-    color: white;
+    color: #cccdd7;;
   }
   
   p {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     margin: 5px 0;
     color: #cccdd7;
     font-weight: bold;

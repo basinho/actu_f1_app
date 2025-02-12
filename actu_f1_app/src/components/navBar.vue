@@ -2,10 +2,6 @@
 <template>
     <nav>
         <div class="button-navBar">
-            <RouterLink to="/recents" class="nav-link">
-                <img src="../assets/recent_icon.svg">
-
-            </RouterLink>
             <RouterLink to="/suivis" class="nav-link">
                 <img src="../assets/suivis_icon.svg">
             </RouterLink>
@@ -37,8 +33,8 @@ nav{
 }
 
 img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     transition: opacity 0.3s, filter 0.3s;
 }
 
@@ -49,7 +45,7 @@ img{
     justify-content: center;
     align-items: center;
     top: 20%;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .nav-link img {

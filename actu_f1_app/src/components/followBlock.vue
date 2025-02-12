@@ -11,6 +11,10 @@
         team: String,
         img : String,
         team_img : String,
+        isTeam: {
+            type: Boolean,
+            default: false,
+        },
     })
 
 </script>
