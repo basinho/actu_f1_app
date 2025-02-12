@@ -1,6 +1,11 @@
 <template>
   <header>
-    <subHeader />
+    <subHeader
+      title1="Pilotes"
+      title2="Constructeurs"
+      link1="/classements/pilotes"
+      link2="/classements/constructeurs"
+    />
   </header>
   <div class="positions">
     <PositionStanding
@@ -37,7 +42,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .positions {
   display: flex;
   flex-direction: column;

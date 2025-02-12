@@ -1,6 +1,11 @@
 <template>
   <header>
-    <subHeader />
+    <subHeader
+      title1="Pilotes"
+      title2="Constructeurs"
+      link1="/classements/pilotes"
+      link2="/classements/constructeurs"
+    />
   </header>
   <div class="positions">
     <template v-if="drivers.length">
@@ -27,7 +32,7 @@ import dataStanding from '../assets/f1.json';
 const drivers = ref(dataStanding.pilotes); // Accéder directement aux pilotes
 </script>
 
-<style>
+<style scoped>
 .positions {
   display: flex;
   flex-direction: column;
