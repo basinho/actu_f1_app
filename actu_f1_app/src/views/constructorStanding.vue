@@ -1,23 +1,23 @@
 <template>
   <header>
-    <subHeader/>
+    <subHeader />
   </header>
-  
   <div class="positions">
-      <PositionStanding 
-        v-for="team in sortedTeams" 
-        :team="team.engine" 
-        :surname="team.team"
-        :points="team.points"
-        :team_img="team.team_img"
-      />
+    <PositionStanding
+      v-for="team in sortedTeams"
+      :key="team.team"
+      :team="team.engine"
+      :surname="team.team"
+      :points="team.points"
+      :team_img="team.team_img"
+    />
   </div>
 </template>
 
 <script>
 import PositionStanding from "../components/standingBlock.vue";
 import dataStanding from "../assets/f1.json";
-import subHeader from '../components/subHeader.vue'
+import subHeader from '../components/subHeader.vue';
 
 export default {
   components: {
@@ -26,31 +26,12 @@ export default {
   },
   data() {
     return {
-      teams: dataStanding // Définir les données importées dans la propriété `teams`
+      teams: dataStanding.teams // Accéder directement aux équipes
     };
   },
   computed: {
-    groupedTeams() {
-      if (!Array.isArray(this.teams)) {
-        return {}; // Retourne un objet vide si `teams` est undefined
-      }
-      
-      return this.teams.reduce((acc, team) => {
-        if (!acc[team.team]) {
-          acc[team.team] = {
-            team: team.team,
-            engine: team.engine,
-            points: 0,
-            team_img: team.team_img
-          };
-        }
-        acc[team.team].points += team.points;
-        return acc;
-      }, {});
-    },
-    
     sortedTeams() {
-      return Object.values(this.groupedTeams).sort((a, b) => b.points - a.points);
+      return this.teams.sort((a, b) => b.points - a.points);
     }
   }
 };
@@ -61,8 +42,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom:25%;
+  margin-bottom: 25%;
   gap: 1rem;
 }
 </style>
-

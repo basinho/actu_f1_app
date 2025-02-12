@@ -1,14 +1,16 @@
 <template>
         <div class="circleDiv">
-            <img v-if="img" :src="img" :alt="firstname" />
+            <img v-if="img" :src="img" :alt="surname" />
+            <img v-if="team_img" :src="team_img" :alt="team" />
         </div>
 </template>
 
 <script setup>
     const props = defineProps ({
-        firstname: String,
+        surname: String,
+        team: String,
         img : String,
-        img_team : String,
+        team_img : String,
     })
 
 </script>

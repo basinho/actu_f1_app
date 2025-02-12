@@ -1,14 +1,13 @@
-
 <template>
-    <header>
-        <subHeader/>
-    </header>
+  <header>
+    <subHeader />
+  </header>
   <div class="positions">
     <template v-if="drivers.length">
-      <standingBlock 
-        v-for="driver in drivers" 
-        :key="driver.id" 
-        :firstname="driver.firstname" 
+      <standingBlock
+        v-for="driver in drivers"
+        :key="driver.id"
+        :firstname="driver.firstname"
         :surname="driver.surname"
         :team="driver.team"
         :points="driver.points"
@@ -18,15 +17,14 @@
     <p v-else>Chargement des classements...</p>
   </div>
 </template>
-  
+
 <script setup>
-import { ref, onMounted } from 'vue';
-import standingBlock from '../components/standingBlock.vue'; 
-import subHeader from '../components/subHeader.vue'
+import { ref } from 'vue';
+import standingBlock from '../components/standingBlock.vue';
+import subHeader from '../components/subHeader.vue';
 import dataStanding from '../assets/f1.json';
 
-const drivers = ref(dataStanding); 
-
+const drivers = ref(dataStanding.pilotes); // Accéder directement aux pilotes
 </script>
 
 <style>
@@ -34,7 +32,7 @@ const drivers = ref(dataStanding);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom:20%;
+  margin-bottom: 20%;
   gap: 1rem;
 }
 </style>
