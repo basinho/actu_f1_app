@@ -1,8 +1,10 @@
 <template>
-    <div class="block">
+    <div class="block" @click="toggleFollow">
         <div class="infos-date">
             <p class="date">{{ dateNumber }} </p>
-            <p class="date">{{ dateMonth }} </p>
+            <div class="dateMonth-block">
+              <p class="date">{{ dateMonth }} </p>
+            </div>
       </div>
       <div class="info">
         <h2>{{ country }}</h2>
@@ -16,12 +18,12 @@
     circuit: String,
     country: String,      
     dateNumber: String,
-    dateMonth: String,
+    dateMonth: String
   });
   
   </script>
   
-  <style>
+  <style scoped>
   .block {
     display: flex;
     align-items: center;
@@ -31,18 +33,24 @@
     width: 90vw;
     max-width: 400px;
     height: auto;
+    margin-right: 0;
     gap: 30%;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out;
   }
   
-  .block:hover {
-    transform: scale(1.05);
+
+  .dateMonth-block{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 25px;
   }
+
 
   .info {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 45%;
   }
 
@@ -78,6 +86,12 @@
     margin: 5px 0;
     color: #cccdd7;
     font-weight: bold;
+  }
+
+  .dateMonth-block p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #cccdd7;
   }
   </style>
   

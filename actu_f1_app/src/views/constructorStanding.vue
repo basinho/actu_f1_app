@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      teams: dataStanding.teams // Accéder directement aux équipes
+      teams: dataStanding.teams 
     };
   },
   computed: {

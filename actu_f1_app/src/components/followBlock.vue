@@ -1,7 +1,7 @@
 <template>
-    <div class="circleDiv" @click="toggleFollow">
+    <div class="circleDiv">
       <img v-if="img" :src="img" :alt="firstname" />
-      <div class="follow-indicator" :class="{ followed: isFollowed }">
+      <div class="follow-indicator" :class="{ followed: isFollowed }" @click="toggleFollow">
         {{ isFollowed ? '-' : '+' }}
       </div>
     </div>
@@ -18,18 +18,17 @@
       type: Boolean,
       default: false,
     },
-    id: [String, Number], // Ajoutez un identifiant unique pour chaque élément
+    id: [String, Number],
   });
   
   const isFollowed = ref(false);
   
-  // Charger l'état des follows depuis le localStorage
   const loadFollows = () => {
     const follows = JSON.parse(localStorage.getItem('follows')) || [];
     isFollowed.value = follows.includes(props.id);
   };
   
-  // Mettre à jour l'état des follows dans le localStorage
+
   const updateFollows = (follows) => {
     localStorage.setItem('follows', JSON.stringify(follows));
   };
@@ -47,7 +46,7 @@
     updateFollows(follows);
   };
   
-  // Charger les follows au montage du composant
+
   onMounted(() => {
     loadFollows();
   });
@@ -62,7 +61,7 @@
     height: 12vh;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.7);
-    overflow: visible; /* Assurez-vous que les éléments peuvent dépasser */
+    overflow: visible; 
     margin: 0 auto;
     padding: 10%;
     box-sizing: border-box;
@@ -83,23 +82,23 @@
   
   .follow-indicator {
     position: absolute;
-    bottom: -10px; /* Ajustez pour faire ressortir le cercle */
-    right: -10px; /* Ajustez pour faire ressortir le cercle */
+    bottom: -10px; 
+    right: -10px; 
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     border-radius: 50%;
-    width: 30px; /* Augmentez la taille pour mieux voir */
-    height: 30px; /* Augmentez la taille pour mieux voir */
+    width: 30px; 
+    height: 30px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px; /* Augmentez la taille du texte */
+    font-size: 18px; 
     transition: background-color 0.3s;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Ajoutez une ombre pour mieux voir */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
   .follow-indicator.followed {
-    background-color: #4CAF50; /* Vert pour indiquer le suivi */
+    background-color: #4CAF50; 
   }
   </style>
   

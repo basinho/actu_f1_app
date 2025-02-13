@@ -22,6 +22,12 @@ const router = createRouter({
       component: () => import('../views/racePage.vue'), 
       meta: { title: 'Courses' } 
     },
+    {
+      path: '/courses/:circuitName/circuit',
+      name: 'circuit',
+      component: () => import('../components/presCircuitBlock.vue'),
+      meta: { title: ':circuitName' }
+    },
     { 
       path: '/classements/pilotes', 
       name: 'classement-pilotes', 
