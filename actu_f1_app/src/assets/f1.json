@@ -8,8 +8,9 @@
                 "points": 0,
                 "team": "Red Bull Racing",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png",
-                "date_of_birth": "1997-09-30",
-                "nationality": "Néerlandaise",
+                "date_of_birth": "30 septembre 1997",
+                "number": 1,
+                "nationality": "Pays Bas",
                 "races_entered": 176,
                 "podiums": 88,
                 "titles": 3
@@ -22,8 +23,9 @@
                 "points": 0,
                 "team": "Red Bull Racing",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png",
-                "date_of_birth": "2002-02-11",
-                "nationality": "Néo-Zélandaise",
+                "date_of_birth": "11 février 2002",
+                "number": 30,
+                "nationality": "Nouvelle Zélande",
                 "races_entered": 2,
                 "podiums": 0,
                 "titles": 0
@@ -36,8 +38,9 @@
                 "points": 0,
                 "team": "Scuderia Ferrari",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png",
-                "date_of_birth": "1985-01-07",
-                "nationality": "Britannique",
+                "date_of_birth": "7 janvier 1985",
+                "number": 44,
+                "nationality": "Angleterre",
                 "races_entered": 322,
                 "podiums": 195,
                 "titles": 7
@@ -50,8 +53,9 @@
                 "points": 0,
                 "team": "Scuderia Ferrari",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png",
-                "date_of_birth": "1997-10-16",
-                "nationality": "Monégasque",
+                "date_of_birth": "16 octobre 1997",
+                "number": 16,
+                "nationality": "Monaco",
                 "races_entered": 118,
                 "podiums": 27,
                 "titles": 0
@@ -64,8 +68,9 @@
                 "points": 0,
                 "team": "Mercedes-AMG Petronas",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png",
-                "date_of_birth": "1998-02-15",
-                "nationality": "Britannique",
+                "date_of_birth": "15 février 1998",
+                "number": 63,
+                "nationality": "Angleterre",
                 "races_entered": 85,
                 "podiums": 14,
                 "titles": 0
@@ -78,8 +83,9 @@
                 "points": 0,
                 "team": "Mercedes-AMG Petronas",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ANDANT01_Andrea%20Kimi_Antonelli/andant01.png",
-                "date_of_birth": "2006-08-25",
-                "nationality": "Italienne",
+                "date_of_birth": "25 août 2006",
+                "number": 12,
+                "nationality": "Italie",
                 "races_entered": 0,
                 "podiums": 0,
                 "titles": 0
@@ -92,8 +98,9 @@
                 "points": 0,
                 "team": "McLaren F1 Team",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png",
-                "date_of_birth": "1999-11-13",
-                "nationality": "Britannique",
+                "date_of_birth": "13 novembre 1999",
+                "number": 4,
+                "nationality": "Angleterre",
                 "races_entered": 99,
                 "podiums": 8,
                 "titles": 0
@@ -106,8 +113,9 @@
                 "points": 0,
                 "team": "McLaren F1 Team",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png",
-                "date_of_birth": "2001-04-06",
-                "nationality": "Australienne",
+                "date_of_birth": "6 avril 2001",
+                "number": 81,
+                "nationality": "AUstralie",
                 "races_entered": 22,
                 "podiums": 4,
                 "titles": 0
@@ -120,8 +128,9 @@
                 "points": 0,
                 "team": "Aston Martin",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png",
-                "date_of_birth": "1981-07-29",
-                "nationality": "Espagnole",
+                "date_of_birth": "29 juillet 1981",
+                "number": 14,
+                "nationality": "Espagne",
                 "races_entered": 374,
                 "podiums": 102,
                 "titles": 2
@@ -134,8 +143,9 @@
                 "points": 0,
                 "team": "Aston Martin",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png",
-                "date_of_birth": "1998-10-29",
-                "nationality": "Canadienne",
+                "date_of_birth": "29 octobre 1998",
+                "number": 18,
+                "nationality": "Canada",
                 "races_entered": 135,
                 "podiums": 3,
                 "titles": 0
@@ -148,8 +158,9 @@
                 "points": 0,
                 "team": "Alpine F1 Team",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png",
-                "date_of_birth": "1996-02-07",
-                "nationality": "Française",
+                "date_of_birth": "7 février 1996",
+                "number": 10,
+                "nationality": "France",
                 "races_entered": 117,
                 "podiums": 3,
                 "titles": 0
@@ -162,8 +173,9 @@
                 "points": 0,
                 "team": "Alpine F1 Team",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png",
-                "date_of_birth": "2003-01-20",
-                "nationality": "Australienne",
+                "date_of_birth": "20 janvier 2003",
+                "number": 7,
+                "nationality": "Australie",
                 "races_entered": 0,
                 "podiums": 0,
                 "titles": 0
@@ -176,8 +188,9 @@
                 "points": 0,
                 "team": "Haas F1 Team",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png",
-                "date_of_birth": "1996-09-17",
-                "nationality": "Française",
+                "date_of_birth": "17 septembre 1996",
+                "number": 31,
+                "nationality": "France",
                 "races_entered": 123,
                 "podiums": 2,
                 "titles": 0
@@ -190,8 +203,9 @@
                 "points": 0,
                 "team": "Haas F1 Team",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png",
-                "date_of_birth": "2005-05-08",
-                "nationality": "Britannique",
+                "date_of_birth": "8 mai 2005",
+                "number": 87,
+                "nationality": "Angleterre",
                 "races_entered": 0,
                 "podiums": 0,
                 "titles": 0
@@ -204,8 +218,9 @@
                 "points": 0,
                 "team": "Kick Sauber",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png",
-                "date_of_birth": "2004-10-14",
-                "nationality": "Brésilienne",
+                "date_of_birth": "14 octobre 2004",
+                "number": 5,
+                "nationality": "Brésil",
                 "races_entered": 0,
                 "podiums": 0,
                 "titles": 0
@@ -218,8 +233,9 @@
                 "points": 0,
                 "team": "Kick Sauber",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png",
-                "date_of_birth": "1987-08-19",
-                "nationality": "Allemande",
+                "date_of_birth": "19 août 1987",
+                "number": 27,
+                "nationality": "Allemagne",
                 "races_entered": 207,
                 "podiums": 1,
                 "titles": 0
@@ -232,8 +248,9 @@
                 "points": 0,
                 "team": "Williams Racing",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png",
-                "date_of_birth": "1996-03-23",
-                "nationality": "Thaïlandaise",
+                "date_of_birth": "23 mars 1996",
+                "number": 23,
+                "nationality": "Thailande",
                 "races_entered": 81,
                 "podiums": 2,
                 "titles": 0
@@ -246,8 +263,9 @@
                 "points": 0,
                 "team": "Williams Racing",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png",
-                "date_of_birth": "1994-09-01",
-                "nationality": "Espagnole",
+                "date_of_birth": "1 septembre 1994",
+                "number": 55,
+                "nationality": "Espagne",
                 "races_entered": 167,
                 "podiums": 17,
                 "titles": 0
@@ -257,11 +275,12 @@
                 "firstname": "Yuki",
                 "surname": "Tsunoda",
                 "acronyme": "TSU",
-                "points": 0,
+                "points": 21,
                 "team": "Racing Bulls",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png",
-                "date_of_birth": "2000-05-11",
-                "nationality": "Japonaise",
+                "date_of_birth": "11 mai 2000",
+                "number": 1,
+                "nationality": "Japon",
                 "races_entered": 77,
                 "podiums": 2,
                 "titles": 0
@@ -274,95 +293,137 @@
                 "points": 0,
                 "team": "Racing Bulls",
                 "img": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png",
-                "date_of_birth": "2004-09-28",
-                "nationality": "Française",
+                "date_of_birth": "28 septembre 2004",
+                "number": 6,
+                "nationality": "France",
                 "races_entered": 0,
                 "podiums": 0,
                 "titles": 0
             }
     ],
-        "teams": [
-            {
-                "team": "Red Bull Racing",
-                "engine": "Honda RBPT",
-                "team_img": "https://brandlogo.org/wp-content/uploads/2024/09/Red-Bull-Racing-Formula-One-Team-Logo-2016.png.webp",
-                "constructors_titles": 6,
-                "races_entered": 350,
-                "entry_year": 2005
-            },
-            {
-                "team": "Scuderia Ferrari",
-                "engine": "Ferrari",
-                "team_img": "https://www.zeitlounge.com/documents/category/2120/Scuderia-Ferrari.png",
-                "constructors_titles": 16,
-                "races_entered": 1047,
-                "entry_year": 1950
-            },
-            {
-                "team": "Mercedes-AMG Petronas",
-                "engine": "Mercedes",
-                "team_img": "https://companieslogo.com/img/orig/MBG.DE-da0d7ae5.png?t=1720244492",
-                "constructors_titles": 8,
-                "races_entered": 284,
-                "entry_year": 2010
-            },
-            {
-                "team": "McLaren F1 Team",
-                "engine": "Mercedes",
-                "team_img": "https://cdn3.emoji.gg/emojis/9807_McLaren_Logo.png",
-                "constructors_titles": 8,
-                "races_entered": 932,
-                "entry_year": 1966
-            },
-            {
-                "team": "Aston Martin",
-                "engine": "Mercedes",
-                "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Logo-Aston-Martin.png",
-                "constructors_titles": 0,
-                "races_entered": 73,
-                "entry_year": 2021
-            },
-            {
-                "team": "Alpine F1 Team",
-                "engine": "Renault",
-                "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Alpine-logo-1440x900-grand.png",
-                "constructors_titles": 0,
-                "races_entered": 73,
-                "entry_year": 2021
-            },
-            {
-                "team": "Haas F1 Team",
-                "engine": "Ferrari",
-                "team_img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_Haas_F1.png",
-                "constructors_titles": 0,
-                "races_entered": 159,
-                "entry_year": 2016
-            },
-            {
-                "team": "Kick Sauber",
-                "engine": "Ferrari",
-                "team_img": "https://fansbrands.com/cdn/shop/collections/kick-logo-500x500-collection.png?crop=center&height=1200&v=1728104273&width=1200",
-                "constructors_titles": 0,
-                "races_entered": 0,
-                "entry_year": 2024
-            },
-            {
-                "team": "Williams Racing",
-                "engine": "Mercedes",
-                "team_img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png",
-                "constructors_titles": 9,
-                "races_entered": 783,
-                "entry_year": 1977
-            },
-            {
-                "team": "Racing Bulls",
-                "engine": "Honda RBPT",
-                "team_img": "https://upload.wikimedia.org/wikipedia/tr/a/ae/VCARB_logo.png",
-                "constructors_titles": 0,
-                "races_entered": 0,
-                "entry_year": 2024
-            }
-        ],
+       "teams": [
+    {
+        "id": 1,
+        "team": "Red Bull Racing",
+        "engine": "Honda RBPT",
+        "team_img": "https://brandlogo.org/wp-content/uploads/2024/09/Red-Bull-Racing-Formula-One-Team-Logo-2016.png.webp",
+        "constructors_titles": 6,
+        "races_entered": 350,
+        "entry_year": 2005,
+        "country": "Autriche",
+        "team_principal": "Christian Horner",
+        "podiums": 200
+    },
+    {
+        "id": 2,
+        "team": "Scuderia Ferrari",
+        "engine": "Ferrari",
+        "team_img": "https://www.zeitlounge.com/documents/category/2120/Scuderia-Ferrari.png",
+        "constructors_titles": 16,
+        "races_entered": 1047,
+        "entry_year": 1950,
+        "country": "Italie",
+        "team_principal": "Fred Vasseur",
+        "podiums": 800
+    },
+    {
+        "id": 3,
+        "team": "Mercedes-AMG Petronas",
+        "engine": "Mercedes",
+        "team_img": "https://companieslogo.com/img/orig/MBG.DE-da0d7ae5.png?t=1720244492",
+        "constructors_titles": 8,
+        "races_entered": 284,
+        "entry_year": 2010,
+        "country": "Allemagne",
+        "team_principal": "Toto Wolff",
+        "podiums": 220
+    },
+    {
+        "id": 4,
+        "team": "McLaren F1 Team",
+        "engine": "Mercedes",
+        "team_img": "https://cdn3.emoji.gg/emojis/9807_McLaren_Logo.png",
+        "constructors_titles": 8,
+        "races_entered": 932,
+        "entry_year": 1966,
+        "country": "Angleterre",
+        "team_principal": "Andrea Stella",
+        "podiums": 500
+    },
+    {
+        "id": 5,
+        "team": "Aston Martin",
+        "engine": "Mercedes",
+        "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Logo-Aston-Martin.png",
+        "constructors_titles": 0,
+        "races_entered": 73,
+        "entry_year": 2021,
+        "country": "Angleterre",
+        "team_principal": "Mike Krack",
+        "podiums": 5
+    },
+    {
+        "id": 6,
+        "team": "Alpine F1 Team",
+        "engine": "Renault",
+        "team_img": "https://www.logo-voiture.com/wp-content/uploads/2021/01/Alpine-logo-1440x900-grand.png",
+        "constructors_titles": 0,
+        "races_entered": 73,
+        "entry_year": 2021,
+        "country": "France",
+        "team_principal": "Oliver Oakes",
+        "podiums": 10
+    },
+    {
+        "id": 7,
+        "team": "Haas F1 Team",
+        "engine": "Ferrari",
+        "team_img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_Haas_F1.png",
+        "constructors_titles": 0,
+        "races_entered": 159,
+        "entry_year": 2016,
+        "country": "USA",
+        "team_principal": "ayao Komatsu",
+        "podiums": 0
+    },
+    {
+        "id": 8,
+        "team": "Kick Sauber",
+        "engine": "Ferrari",
+        "team_img": "https://fansbrands.com/cdn/shop/collections/kick-logo-500x500-collection.png?crop=center&height=1200&v=1728104273&width=1200",
+        "constructors_titles": 0,
+        "races_entered": 0,
+        "entry_year": 2024,
+        "country": "Suisse",
+        "team_principal": "Vide",
+        "podiums": 0
+    },
+    {
+        "id": 9,
+        "team": "Williams Racing",
+        "engine": "Mercedes",
+        "team_img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png",
+        "constructors_titles": 9,
+        "races_entered": 783,
+        "entry_year": 1977,
+        "country": "Angleterre",
+        "team_principal": "James Vowles",
+        "podiums": 300
+    },
+    {
+        "id": 10,
+        "team": "Racing Bulls",
+        "engine": "Honda RBPT",
+        "team_img": "https://upload.wikimedia.org/wikipedia/tr/a/ae/VCARB_logo.png",
+        "constructors_titles": 0,
+        "races_entered": 0,
+        "entry_year": 2024,
+        "country": "Italie",
+        "team_principal": "Laurent Mekiès",
+        "podiums": 0
+    }
+],
+
     
     
     
@@ -377,18 +438,18 @@
         "gp_laps": 58,
         "race_distance": "306.124 km",
         "sessions": {
-            "vendredi": {
-                "date": "14 mars",
+            "Vendredi": {
+                "Date": "14 mars",
                 "FP1": "02:30 - 3:30",
                 "FP2": "06:00 - 7:00"
             },
-            "samedi": {
-                "date": "15 mars",
+            "Samedi": {
+                "Date": "15 mars",
                 "FP3": "02:30 - 3:30",
                 "Qualifications": "06:00 - 7:00"
             },
-            "dimanche": {
-                "date": "16 mars",
+            "Dimanche": {
+                "Date": "16 mars",
                 "Course": "05:00"
             }
         }
@@ -403,18 +464,18 @@
         "gp_laps": 56,
         "race_distance": "305.066 km",
         "sessions": {
-            "vendredi": {
-                "date": "21 mars",
+            "Vendredi": {
+                "Date": "21 mars",
                 "FP1": "04:30 - 5:30",
                 "Quali Sprint": "08:30 - 9:14"
             },
-            "samedi": {
-                "date": "22 mars",
+            "Samedi": {
+                "Date": "22 mars",
                 "Course Sprint": "04:00 - 5:00",
                 "Qualifications": "08:00 - 9:00"
             },
-            "dimanche": {
-                "date": "23 mars",
+            "Dimanche": {
+                "Date": "23 mars",
                 "Course": "08:00"
             }
         }
@@ -429,18 +490,18 @@
         "gp_laps": 53,
         "race_distance": "307.471 km",
         "sessions": {
-            "vendredi": {
-                "date": "4 avril",
+            "Vendredi": {
+                "Date": "4 avril",
                 "FP1": "04:30 - 5:30",
                 "FP2": "08:00 - 9:00"
             },
-            "samedi": {
-                "date": "5 avril",
+            "Samedi": {
+                "Date": "5 avril",
                 "FP3": "04:30 - 5:30",
                 "Qualifications": "08:00 - 9:00"
             },
-            "dimanche": {
-                "date": "6 avril",
+            "Dimanche": {
+                "Date": "6 avril",
                 "Course": "07:00"
             }
         }
@@ -455,18 +516,18 @@
         "gp_laps": 57,
         "race_distance": "308.238 km",
         "sessions": {
-            "vendredi": {
-                "date": "11 avril",
+            "Vendredi": {
+                "Date": "11 avril",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "12 avril",
+            "Samedi": {
+                "Date": "12 avril",
                 "FP3": "14:30 - 15:30",
                 "Qualifications": "18:00 - 19:00"
             },
-            "dimanche": {
-                "date": "13 avril",
+            "Dimanche": {
+                "Date": "13 avril",
                 "Course": "17:00"
             }
         }
@@ -481,18 +542,18 @@
         "gp_laps": 50,
         "race_distance": "308.450 km",
         "sessions": {
-            "vendredi": {
-                "date": "18 avril",
+            "Vendredi": {
+                "Date": "18 avril",
                 "FP1": "15:30 - 16:30",
                 "FP2": "19:00 - 20:00"
             },
-            "samedi": {
-                "date": "19 avril",
+            "Samedi": {
+                "Date": "19 avril",
                 "FP3": "15:30 - 16:30",
                 "Qualifications": "19:00 - 20:00"
             },
-            "dimanche": {
-                "date": "20 avril",
+            "Dimanche": {
+                "Date": "20 avril",
                 "Course": "19:00"
             }
         }
@@ -508,18 +569,18 @@
         "race_distance": "308.326 km",
         "course_sprint": "3 mai",
         "sessions": {
-            "vendredi": {
-                "date": "2 mai",
+            "Vendredi": {
+                "Date": "2 mai",
                 "FP1": "19:30 - 20:30",
                 "Quali Sprint": "22:30 - 23:14"
             },
-            "samedi": {
-                "date": "3 mai",
+            "Samedi": {
+                "Date": "3 mai",
                 "Course Sprint": "18:00 - 19:00",
                 "Qualifications": "22:00 - 23:00"
             },
-            "dimanche": {
-                "date": "4 mai",
+            "Dimanche": {
+                "Date": "4 mai",
                 "Course": "22:00"
             }
         }
@@ -534,18 +595,18 @@
         "gp_laps": 63,
         "race_distance": "309.049 km",
         "sessions": {
-            "vendredi": {
-                "date": "16 mai",
+            "Vendredi": {
+                "Date": "16 mai",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "17 mai",
+            "Samedi": {
+                "Date": "17 mai",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "18 mai",
+            "Dimanche": {
+                "Date": "18 mai",
                 "Course": "15:00"
             }
         }
@@ -560,18 +621,18 @@
         "gp_laps": 78,
         "race_distance": "260.286 km",
         "sessions": {
-            "vendredi": {
-                "date": "23 mai",
+            "Vendredi": {
+                "Date": "23 mai",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "24 mai",
+            "Samedi": {
+                "Date": "24 mai",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "25 mai",
+            "Dimanche": {
+                "Date": "25 mai",
                 "Course": "15:00"
             }
         }
@@ -586,18 +647,18 @@
         "gp_laps": 66,
         "race_distance": "307.236 km",
         "sessions": {
-            "vendredi": {
-                "date": "30 mai",
+            "Vendredi": {
+                "Date": "30 mai",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "31 mai",
+            "Samedi": {
+                "Date": "31 mai",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "1er juin",
+            "Dimanche": {
+                "Date": "1er juin",
                 "Course": "15:00"
             }
         }
@@ -612,18 +673,18 @@
         "gp_laps": 70,
         "race_distance": "305.270 km",
         "sessions": {
-            "vendredi": {
-                "date": "13 juin",
+            "Vendredi": {
+                "Date": "13 juin",
                 "FP1": "19:30 - 20:30",
                 "FP2": "23:00 - 00:00"
             },
-            "samedi": {
-                "date": "14 juin",
+            "Samedi": {
+                "Date": "14 juin",
                 "FP3": "18:30 - 19:30",
                 "Qualifications": "22:00 - 23:00"
             },
-            "dimanche": {
-                "date": "15 juin",
+            "Dimanche": {
+                "Date": "15 juin",
                 "Course": "20:00"
             }
         }
@@ -638,18 +699,18 @@
         "gp_laps": 71,
         "race_distance": "306.452 km",
         "sessions": {
-            "vendredi": {
-                "date": "27 juin",
+            "Vendredi": {
+                "Date": "27 juin",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "28 juin",
+            "Samedi": {
+                "Date": "28 juin",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "29 juin",
+            "Dimanche": {
+                "Date": "29 juin",
                 "Course": "15:00"
             }
         }
@@ -664,18 +725,18 @@
         "gp_laps": 52,
         "race_distance": "306.198 km",
         "sessions": {
-            "vendredi": {
-                "date": "4 juillet",
+            "Vendredi": {
+                "Date": "4 juillet",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "5 juillet",
+            "Samedi": {
+                "Date": "5 juillet",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "6 juillet",
+            "Simanche": {
+                "Date": "6 juillet",
                 "Course": "16:00"
             }
         }
@@ -690,18 +751,18 @@
         "gp_laps": 44,
         "race_distance": "308.052 km",
         "sessions": {
-            "vendredi": {
-                "date": "25 juillet",
+            "Vendredi": {
+                "Date": "25 juillet",
                 "FP1": "12:30 - 13:30",
                 "Quali Sprint": "16:30 - 17:14"
             },
-            "samedi": {
-                "date": "26 juillet",
+            "Samedi": {
+                "Date": "26 juillet",
                 "Course Sprint": "12:00 - 13:00",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "27 juillet",
+            "Dimanche": {
+                "Date": "27 juillet",
                 "Course": "15:00"
             }
         }
@@ -716,18 +777,18 @@
         "gp_laps": 70,
         "race_distance": "306.630 km",
         "sessions": {
-            "vendredi": {
-                "date": "1 août",
+            "Vendredi": {
+                "Date": "1 août",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "2 août",
+            "Samedi": {
+                "Date": "2 août",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "3 août",
+            "Dimanche": {
+                "Date": "3 août",
                 "Course": "15:00"
             }
         }
@@ -742,18 +803,18 @@
         "gp_laps": 72,
         "race_distance": "306.587 km",
         "sessions": {
-            "vendredi": {
-                "date": "29 août",
+            "Vendredi": {
+                "Date": "29 août",
                 "FP1": "12:30 - 13:30",
                 "FP2": "16:00 - 17:00"
             },
-            "samedi": {
-                "date": "30 août",
+            "Samedi": {
+                "Date": "30 août",
                 "FP3": "11:30 - 12:30",
                 "Qualifications": "15:00 - 16:00"
             },
-            "dimanche": {
-                "date": "31 août",
+            "Dimanche": {
+                "Date": "31 août",
                 "Course": "15:00"
             }
         }
@@ -768,18 +829,18 @@
         "gp_laps": 53,
         "race_distance": "306.720 km",
         "sessions": {
-            "vendredi": {
-                "date": "5 septembre",
+            "Vendredi": {
+                "Date": "5 septembre",
                 "FP1": "13:30 - 14:30",
                 "FP2": "17:00 - 18:00"
             },
-            "samedi": {
-                "date": "6 septembre",
+            "Samedi": {
+                "Date": "6 septembre",
                 "FP3": "12:30 - 13:30",
                 "Qualifications": "16:00 - 17:00"
             },
-            "dimanche": {
-                "date": "7 septembre",
+            "Dimanche": {
+                "Date": "7 septembre",
                 "Course": "15:00"
             }
         }
@@ -794,18 +855,18 @@
         "gp_laps": 51,
         "race_distance": "306.049 km",
         "sessions": {
-            "vendredi": {
-                "date": "19 septembre",
+            "Vendredi": {
+                "Date": "19 septembre",
                 "FP1": "10:30 - 11:30",
                 "FP2": "14:00 - 15:00"
             },
-            "samedi": {
-                "date": "20 septembre",
+            "Samedi": {
+                "Date": "20 septembre",
                 "FP3": "10:30 - 11:30",
                 "Qualifications": "14:00 - 15:00"
             },
-            "dimanche": {
-                "date": "21 septembre",
+            "Dimanche": {
+                "Date": "21 septembre",
                 "Course": "13:00"
             }
         }
@@ -820,18 +881,18 @@
         "gp_laps": 62,
         "race_distance": "306.143 km",
         "sessions": {
-            "vendredi": {
-                "date": "3 octobre",
+            "Vendredi": {
+                "Date": "3 octobre",
                 "FP1": "11:30 - 12:30",
                 "FP2": "15:00 - 16:00"
             },
-            "samedi": {
-                "date": "4 octobre",
+            "Samedi": {
+                "Date": "4 octobre",
                 "FP3": "11:30 - 12:30",
                 "Qualifications": "15:00 - 16:00"
             },
-            "dimanche": {
-                "date": "5 octobre",
+            "Dimanche": {
+                "Date": "5 octobre",
                 "Course": "14:00"
             }
         }
@@ -846,18 +907,18 @@
         "gp_laps": 56,
         "race_distance": "308.405 km",
         "sessions": {
-            "vendredi": {
-                "date": "17 octobre",
+            "Vendredi": {
+                "Date": "17 octobre",
                 "FP1": "19:30 - 20:30",
                 "Quali Sprint": "23:30 - 00:14"
             },
-            "samedi": {
-                "date": "18 octobre",
+            "Samedi": {
+                "Date": "18 octobre",
                 "Course Sprint": "19:00 - 20:00",
                 "Qualifications": "23:00 - 00:00"
             },
-            "dimanche": {
-                "date": "19 octobre",
+            "Dimanche": {
+                "Date": "19 octobre",
                 "Course": "21:00"
             }
         }
@@ -872,18 +933,18 @@
         "gp_laps": 71,
         "race_distance": "305.354 km",
         "sessions": {
-            "vendredi": {
-                "date": "24 octobre",
+            "Vendredi": {
+                "Date": "24 octobre",
                 "FP1": "20:30 - 21:30"
             },
-            "samedi": {
-                "date": "25 octobre",
+            "Samedi": {
+                "Date": "25 octobre",
                 "FP2": "00:00 - 01:00",
                 "FP3": "19:30 - 20:30",
                 "Qualifications": "23:00 - 00:00"
             },
-            "dimanche": {
-                "date": "26 octobre",
+            "Dimanche": {
+                "Date": "26 octobre",
                 "Course": "21:00"
             }
         }
@@ -898,18 +959,18 @@
         "gp_laps": 71,
         "race_distance": "305.879 km",
         "sessions": {
-            "vendredi": {
-                "date": "7 novembre",
+            "Vendredi": {
+                "Date": "7 novembre",
                 "FP1": "15:30 - 16:30",
                 "Quali Sprint": "19:30 - 20:14"
             },
-            "samedi": {
-                "date": "8 novembre",
+            "Samedi": {
+                "Date": "8 novembre",
                 "Course Sprint": "15:00 - 16:00",
                 "Qualifications": "19:00 - 20:00"
             },
-            "dimanche": {
-                "date": "9 novembre",
+            "Dimanche": {
+                "Date": "9 novembre",
                 "Course": "18:00"
             }
         }
@@ -924,18 +985,18 @@
         "gp_laps": 50,
         "race_distance": "309.958 km",
         "sessions": {
-            "vendredi": {
-                "date": "21 novembre",
+            "Vendredi": {
+                "Date": "21 novembre",
                 "FP1": "01:30 - 02:30",
                 "FP2": "05:00 - 06:00"
             },
-            "samedi": {
-                "date": "22 novembre",
+            "Samedi": {
+                "Date": "22 novembre",
                 "FP3": "01:30 - 02:30",
                 "Qualifications": "05:00 - 06:00"
             },
-            "dimanche": {
-                "date": "23 novembre",
+            "Dimanche": {
+                "Date": "23 novembre",
                 "Course": "05:00"
             }
         }
@@ -950,18 +1011,18 @@
         "gp_laps": 57,
         "race_distance": "308.611 km",
         "sessions": {
-            "vendredi": {
-                "date": "28 novembre",
+            "Vendredi": {
+                "Date": "28 novembre",
                 "FP1": "14:30 - 15:30",
                 "Quali Sprint": "18:30 - 19:14"
             },
-            "samedi": {
-                "date": "29 novembre",
+            "Samedi": {
+                "Date": "29 novembre",
                 "Course Sprint": "15:00 - 16:00",
                 "Qualifications": "19:00 - 20:00"
             },
-            "dimanche": {
-                "date": "30 novembre",
+            "Dimanche": {
+                "Date": "30 novembre",
                 "Course": "17:00"
             }
         }
@@ -976,18 +1037,18 @@
         "gp_laps": 58,
         "race_distance": "305.183 km",
         "sessions": {
-            "vendredi": {
-                "date": "5 décembre",
+            "Vendredi": {
+                "Date": "5 décembre",
                 "FP1": "10:30 - 11:30",
                 "FP2": "14:00 - 15:00"
             },
-            "samedi": {
-                "date": "6 décembre",
+            "Samedi": {
+                "Date": "6 décembre",
                 "FP3": "11:30 - 12:30",
                 "Qualifications": "15:00 - 16:00"
             },
-            "dimanche": {
-                "date": "7 décembre",
+            "Dimanche": {
+                "Date": "7 décembre",
                 "Course": "14:00"
             }
         }
